@@ -22,7 +22,14 @@ def main():
     totalctl = 0
     totalhth = 0
 
-    donate = input("How much money do you want to donate?")
+    donate = int(input("How much money do you want to donate?"))
+
+    if place == "World Central Kitchen":
+        totalwck += donate
+    elif place == "Crisis Text Line":
+        totalctl += donate
+    else:
+        totalhth += donate
 
 
 
