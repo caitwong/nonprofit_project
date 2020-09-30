@@ -16,12 +16,15 @@ def main():
     displayIntro()
 
     displayNonProfits()
-    donate = input("Which nonprofit would you like to donate to? ")
-
+    place = input("Which nonprofit would you like to donate to? ")
 
     totalwck = 0
     totalctl = 0
     totalhth = 0
+
+    donate = input("How much money do you want to donate?")
+
+
 
 
     #steps: 
