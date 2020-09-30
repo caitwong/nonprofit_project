@@ -7,17 +7,21 @@ def displayNonProfits():
 #    1. World Central Kitchen
 #    2. Crisis Text Line
 #    3. Heart to Heart International
-    print("Which nonprofit would you like to donate to?")
-    profit = input("list = ['World Central Kitchen', 'Crisis Text Line', 'Heart to Heart International']")
+    list = ['World Central Kitchen', 'Crisis Text Line', 'Heart to Heart International']
+    print (list[0])
+    print (list[1])
+    print (list[2])
 
 def main():
     displayIntro()
 
-    totalwck = donation
-    totalctl = donation
-    totalhth = donation
-
     displayNonProfits()
+    donate = input("Which nonprofit would you like to donate to? ")
+
+
+    totalwck = 0
+    totalctl = 0
+    totalhth = 0
 
 
     #steps: 
