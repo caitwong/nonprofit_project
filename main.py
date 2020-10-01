@@ -13,16 +13,41 @@ def displayNonProfits():
     print (list[2])
 
 def main():
+    print("")
+    print("------------------------------------")
+    print("")
     displayIntro()
+    print("")
+    print("------------------------------------")
+    print("")
 
+    print("")
+    print("------------------------------------")
+    print("")
     displayNonProfits()
+    print("")
+    print("------------------------------------")
+    print("")
+
+    print("")
+    print("------------------------------------")
+    print("")
     place = input("Which nonprofit would you like to donate to? ")
+    print("")
+    print("------------------------------------")
+    print("")
 
     totalwck = 0
     totalctl = 0
     totalhth = 0
 
+    print("")
+    print("------------------------------------")
+    print("")
     donate = int(input("How much money do you want to donate?"))
+    print("")
+    print("------------------------------------")
+    print("")
 
     if place == "World Central Kitchen":
         totalwck += donate
@@ -31,9 +56,15 @@ def main():
     else:
         totalhth += donate
 
-    print(totalwck)
-    print(totalctl)
-    print(totalhth)
+    print("")
+    print("------------------------------------")
+    print("")
+    print("Total donations for WCK:", totalwck)
+    print("Total donations for CTL:", totalctl)
+    print("Total donations for HTH:", totalhth)
+    print("")
+    print("------------------------------------")
+    print("")
 
 
 
