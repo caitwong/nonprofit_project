@@ -31,6 +31,10 @@ def main():
     else:
         totalhth += donate
 
+    print(totalwck)
+    print(totalctl)
+    print(totalhth)
+
 
 
 
