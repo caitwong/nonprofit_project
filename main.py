@@ -17,25 +17,16 @@ def main():
     print("------------------------------------")
     print("")
     displayIntro()
-    print("")
-    print("------------------------------------")
-    print("")
 
     print("")
     print("------------------------------------")
     print("")
     displayNonProfits()
-    print("")
-    print("------------------------------------")
-    print("")
 
     print("")
     print("------------------------------------")
     print("")
     place = input("Which nonprofit would you like to donate to? ")
-    print("")
-    print("------------------------------------")
-    print("")
 
     totalwck = 0
     totalctl = 0
@@ -45,9 +36,6 @@ def main():
     print("------------------------------------")
     print("")
     donate = int(input("How much money do you want to donate?"))
-    print("")
-    print("------------------------------------")
-    print("")
 
     if place == "World Central Kitchen":
         totalwck += donate
@@ -65,9 +53,6 @@ def main():
     print("")
     print("------------------------------------")
     print("")
-
-
-
 
     #steps: 
 	#1. welcome the user using a unique Intro Message (use a function for this)
