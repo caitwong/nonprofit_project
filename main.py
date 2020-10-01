@@ -37,9 +37,9 @@ def main():
     print("")
     donate = int(input("How much money do you want to donate?"))
 
-    if place == "World Central Kitchen":
+    if place == "World Central Kitchen" or "WCK":
         totalwck += donate
-    elif place == "Crisis Text Line":
+    elif place == "Crisis Text Line" or "CTL":
         totalctl += donate
     else:
         totalhth += donate
