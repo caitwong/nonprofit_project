@@ -37,12 +37,14 @@ def main():
     print("")
     donate = int(input("How much money do you want to donate?"))
 
-    if place == "World Central Kitchen" or "WCK":
-        totalwck += donate
-    elif place == "Crisis Text Line" or "CTL":
-        totalctl += donate
+    if place == "World Central Kitchen" or place == "WCK":
+        totalwck = donate + totalwck
+    elif place == "Crisis Text Line" or place == "CTL":
+        totalctl = donate + totalctl
+    elif place == "Heart to Heart International" or place == "HTH":
+        totalhth = donate + totalhth
     else:
-        totalhth += donate
+        print("invalid")
 
     print("")
     print("------------------------------------")
